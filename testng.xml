@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utils.ExtentReporterTNG"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/pc3/IdeaProjects/TestNGMaven">
+        <classes>
+            <class name="UITest_YourStore._01_FunctiontestSteps">
+            <methods>
+                <include name="Test1_searchFunctionalityCheck"/>
+                <include name="Test2_checkoutFunctionalityCheck"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>

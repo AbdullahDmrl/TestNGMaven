@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-26T20:07:57Z" name="Default Suite" finished-at="2023-07-26T20:08:14Z" duration-ms="17600">
+    <groups>
+    </groups>
+    <test started-at="2023-07-26T20:07:57Z" name="TestNGMaven" finished-at="2023-07-26T20:08:14Z" duration-ms="17600">
+      <class name="UITest_YourStore._01_FunctiontestSteps">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:UITest_YourStore._01_FunctiontestSteps@63a12c68]" started-at="2023-07-26T20:07:57Z" name="beforeClass" finished-at="2023-07-26T20:08:04Z" duration-ms="7762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Test1_searchFunctionalityCheck()[pri:0, instance:UITest_YourStore._01_FunctiontestSteps@63a12c68]" started-at="2023-07-26T20:08:04Z" name="Test1_searchFunctionalityCheck" finished-at="2023-07-26T20:08:05Z" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1_searchFunctionalityCheck -->
+        <test-method is-config="true" signature="printError(org.testng.ITestResult)[pri:0, instance:UITest_YourStore._01_FunctiontestSteps@63a12c68]" started-at="2023-07-26T20:08:05Z" name="printError" finished-at="2023-07-26T20:08:05Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1_searchFunctionalityCheck status=SUCCESS method=_01_FunctiontestSteps.Test1_searchFunctionalityCheck()[pri:0, instance:UITest_YourStore._01_FunctiontestSteps@63a12c68] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printError -->
+        <test-method signature="Test2_checkoutFunctionalityCheck()[pri:0, instance:UITest_YourStore._01_FunctiontestSteps@63a12c68]" started-at="2023-07-26T20:08:05Z" name="Test2_checkoutFunctionalityCheck" finished-at="2023-07-26T20:08:14Z" duration-ms="8955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2_checkoutFunctionalityCheck -->
+        <test-method is-config="true" signature="printError(org.testng.ITestResult)[pri:0, instance:UITest_YourStore._01_FunctiontestSteps@63a12c68]" started-at="2023-07-26T20:08:14Z" name="printError" finished-at="2023-07-26T20:08:14Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2_checkoutFunctionalityCheck status=SUCCESS method=_01_FunctiontestSteps.Test2_checkoutFunctionalityCheck()[pri:0, instance:UITest_YourStore._01_FunctiontestSteps@63a12c68] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printError -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:UITest_YourStore._01_FunctiontestSteps@63a12c68]" started-at="2023-07-26T20:08:14Z" name="afterClass" finished-at="2023-07-26T20:08:14Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- UITest_YourStore._01_FunctiontestSteps -->
+    </test> <!-- TestNGMaven -->
+  </suite> <!-- Default Suite -->
+</testng-results>

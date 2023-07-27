@@ -1,0 +1,22 @@
+ Scenario :
+    General:
+      1- Setting up a project with maven and testNG
+      2- Create POM based framework including chrome browser and utils
+      3- For excel create a ExcelUtility class
+      4- For extent report create a ExtentReporter class
+      5- Read search items(ipod, mac, samsung) from excel
+      6- Write test results to excel and add screen shots  for failure
+      7- Show test results with extent report
+
+    Test1
+    1- Navigate to "http://opencart.abstracta.us/index.php?route=account/login"
+    2- Search items(ipod, mac, samsung)
+    3-Validate all results for each search are the same with search item
+
+    Test2
+    4- Read search items from excel
+    4- First result add to cart
+    5- Go to shopping cart
+    5- Go to Checkout
+    6- Fill in checkout steps and confirm order
+    7- Validate your order is successfully placed
